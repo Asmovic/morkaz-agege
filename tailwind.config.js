@@ -24,5 +24,5 @@ module.exports = {
   variants: {
     backgroundColor: ["responsive", "hover", "focus"],
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/aspect-ratio')],
 }

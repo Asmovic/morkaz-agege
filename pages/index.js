@@ -23,6 +23,7 @@ export default function Home() {
 
 import Head from 'next/head'
 import Nav from '../components/nav'
+import Slider from '../components/slider'
 import Alumni from '../components/alumni'
 import Conferences from '../components/conferences'
 import About from '../components/about'
@@ -44,6 +45,7 @@ export default function Home() {
       </Head>
       <div>
         <Nav />
+        <Slider />
           <div className="container mx-auto">
             <Alumni />
             <Conferences />
