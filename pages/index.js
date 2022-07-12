@@ -25,6 +25,7 @@ import Head from 'next/head'
 import dynamic from 'next/dynamic'
 import Nav from '../components/nav'
 import Slider from '../components/slider'
+import Biography from '../components/Biography'
 import Alumni from '../components/alumni'
 import Conferences from '../components/conferences'
 import About from '../components/about'
@@ -56,6 +57,7 @@ export default function Home() {
         <Nav />
         <Slider />
           <div className="container mx-auto">
+            <Biography />
             <Alumni />
             <Conferences />
             <About />
