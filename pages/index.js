@@ -56,7 +56,7 @@ export default function Home() {
       <div>
         <Nav />
         <Slider />
-          <div className="container mx-auto">
+          <div className="container md:mx-2 lg:mx-auto">
             <Biography />
             <Alumni />
             <Conferences />

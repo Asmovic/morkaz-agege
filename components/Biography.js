@@ -7,7 +7,7 @@ export default function Biography () {
                 <h2 className="text-3xl lg:text-5xl custom-box-shadow inline-block mb-6">
                     Biography
                 </h2>
-                <p className="text-md lg:text-lg text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi repellendus a deserunt! Culpa, praesentium atque suscipit molestiae repudiandae laudantium ad velit eum libero. Tenetur, 
+                <p className="text-md lg:text-lg text-justify p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi repellendus a deserunt! Culpa, praesentium atque suscipit molestiae repudiandae laudantium ad velit eum libero. Tenetur, 
                     inventore dolor assumenda quod iure enim vitae eius reprehenderit vel officia dolores. Esse ea, amet inventore quod repudiandae ad! Quibusdam, praesentium velit tempora ab, odio odit
                      molestiae aspernatur, fuga sit quisquam ut laborum dicta quos sint quam? Qui tempore voluptate dicta labore nesciunt, minus dolores, magni sint itaque, numquam officiis beatae.
                       Aliquid similique a, impedit tenetur velit vitae dolores placeat nam soluta maiores! Unde explicabo deleniti, quas amet suscipit id commodi ratione odit cum possimus voluptas 
