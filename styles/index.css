@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply font-body;
+}
+
+.custom-libre-font {
+  @apply font-display;
+}
+
+.btn-blue {
+  @apply bg-blue-500 text-white font-bold py-2 px-4 rounded;
+}
+
+.hero {
+  @apply py-20;
+}
+
+.header-background {
+  background-image: linear-gradient(
+      to right bottom,
+      rgb(30, 27, 30, 0.8),
+      rgb(30, 27, 30, 0.8)
+    );
+  background-size: cover;
+  background-position: top;
+}
+
+.custom-box-shadow {
+  box-shadow: 0px 11px #4299e1 !important;
+}
+
+.title {
+  @apply text-5xl text-center;
+  color: #333;
+  line-height: 1.15;
+}
+.tooltip .tooltip-text {
+  visibility: hidden;
+  text-align: center;
+  padding: 2px 6px;
+  position: absolute;
+  z-index: 100;
+}
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+}
+

@@ -1,4 +1,4 @@
-import Head from 'next/head'
+/* import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
@@ -19,4 +19,39 @@ export default function Home() {
 
     </div>
   )
+} */
+
+import Head from 'next/head'
+import Nav from '../components/nav'
+import Alumni from '../components/alumni'
+import Conferences from '../components/conferences'
+import About from '../components/about'
+import Footer from '../components/Footer'
+
+export default function Home() {
+  return (
+    <>
+      <Head>
+        <title>Morkaz Agege</title>
+        <meta httpEquiv="content-language" content="en" />
+        <meta charSet="utf-8" />
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="theme-color" content="#4299e1" />
+        <meta
+          name="viewport"
+          content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
+        />
+      </Head>
+      <div>
+        <Nav />
+          <div className="container mx-auto">
+            <Alumni />
+            <Conferences />
+            <About />
+            <Footer />
+          </div>
+      </div>
+    </>
+  )
 }
+
