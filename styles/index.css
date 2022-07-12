@@ -37,6 +37,11 @@ html {
   color: #333;
   line-height: 1.15;
 }
+
+.text-strk {
+  stroke-width: 2px;
+}
+
 .tooltip .tooltip-text {
   visibility: hidden;
   text-align: center;
