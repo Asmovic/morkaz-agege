@@ -22,12 +22,21 @@ export default function Home() {
 } */
 
 import Head from 'next/head'
+import dynamic from 'next/dynamic'
 import Nav from '../components/nav'
 import Slider from '../components/slider'
 import Alumni from '../components/alumni'
 import Conferences from '../components/conferences'
 import About from '../components/about'
 import Footer from '../components/Footer'
+
+import tog from '../components/toggle'
+
+
+/* const DynamicComponentWithNoSSR = dynamic(
+  () => import('../components/toggle'),
+  { ssr: false } // <-- not including this component on server-side
+) */
 
 export default function Home() {
   return (
