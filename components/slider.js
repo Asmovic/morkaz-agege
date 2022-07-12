@@ -70,12 +70,12 @@ export default function Slider(){
                 </button>
             </div>
             <div className="absolute w-full top-1/2 z-5 transform -translate-y-1/2 px-3 flex justify-center items-center">
-                <h1 className="font-extrabold text-xl md:text-5xl lg:text-6xl">
+                <h1 className="font-extrabold text-lg sm:text-xl md:text-3xl lg:text-6xl">
                 Salam Aleykun! <span className="text-md font-medium">👋</span>, Welcome to{' '}
                 <span className="text-blue-500 shadow-md custom-box-shadow">
                     Morkaz.
                 </span>
-                <span className="block text-lg pt-4 md:text-4xl lg:text-4xl font-normal text-center">
+                <span className="block text-lg pt-4 md:text-3xl lg:text-3xl font-normal text-center">
                     <Typed
                     strings={[
                         "Committed To Excellence In Islamic Education",
